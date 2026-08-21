@@ -8,11 +8,13 @@ ESTA FUNCION ES PARA QUE SALGA UNA VENTANA EMERGENTE CUANDO INTENTAMOS HACEMOS C
 
 ## FUNCION DE CAMBIO DE ESTADO DE VISIBILIDAD DE ON OBJETO:
 
+  ```
   UpdateContext(
     {
         locShowDeletePopup: true
     }
-)
+  )
+```
 
 
 * Primero: creamos un contenedor "vertical" y en la propiedad de "Visible" creamos en este caso la variable locShowDeletePopup (como false por defecto)
