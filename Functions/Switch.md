@@ -2,6 +2,7 @@
 
 ## FUNCIONES QUE SE EJECUTAN SEGUN EL ESTADO DE UN "FORM" Y PARA UN BOTON DEL TIPO "CANCEL"
 
+```
 Switch(
   frm_Request.Mode;
 
@@ -11,6 +12,7 @@ Switch(
   FormMode.Edit;  
       ViewForm(frm_Request)
 )
+```
 
 
 * En este caso el uso  de este Switch será para depende del estado del formulario.
