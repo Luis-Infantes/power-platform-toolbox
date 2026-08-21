@@ -1,6 +1,6 @@
 # FUNCIONES DENTRO DE UN SWITCH
 
-## FUNCIONES QUE SE EJECUTAN SEGUN EL ESTADO DE UN "FORM" Y PARA UN BOTON DEL TIPO "CANCEL"
+## FUNCION QUE SEGUN EL MODO DE ESTADO DEL FORM REALIZA UNA ACCION U OTRA
 
 ```
 Switch(
@@ -13,9 +13,6 @@ Switch(
       ViewForm(frm_Request)
 )
 ```
-
-
-* En este caso el uso  de este Switch será para depende del estado del formulario.
 
 * Si el formulario esta modo "New", navegamos a la otra página definida
 
