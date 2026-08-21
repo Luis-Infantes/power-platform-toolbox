@@ -15,19 +15,19 @@ ESTAS FUNCIONES LAS COLOCAMOS EN LA PROPIEDAD DE "ONSELECT" DE BOTONES E ICONOS
   
 
   /*
-  PRIMERA FUNCION PARA PONER EL FORMULARIO EN MODO "NEW" Y LUEGO NAVEGAR HACIA EL
+   Primera funciòn para poner el formulario en modo "new" y luego navegar hacia el
 
-  SEGUNDA FUNCION PARA PONER EL FORMULARIO EN MODO "VIEW" Y LUEGO NAVEGAR A EL
+   Segunda función para poner el formulario en modo "view" y luego navegar a el
 
-  TERCERA FUNCION PARA PONER EL FORMULARIO EN MODO "EDIT"
+   Tercera función para poner el formulario en modo "edit"
 
-  IMPORTANTE DEFINIR PRIMERO EL ESTADO DEL FORMULARIO Y LUEGO NAVEGAR HACIA EL MISMO
+   Importante definir primero el estado del formulario y luego navegar hacia el mismo
 
-  SE SUELE REALIZAR CON LOS MODOS "NEW" Y "VIEW", YA QUE EL MODO "EDIT" LO CAMBIAMOS CUANDO ESTAMOS EN EL MODO "VIEW"
+   Se suele realizar con los modos "new" y "view", ya que el modo "edit" lo cambiamos cuando estamos en el modo "view"
 
-  EN LOS TRES MODO PONEMOS ENTRE PARENTESIS EL NOMBRE DEL FORMULARIO
+   En los tres modos ponemos entre parentesis el nombre del formulario
 
-  EN LA NAVEGACION PONEMOS ENTRE PARENTESIS EL NOMBRE DEL "SCREEN" AL QUE NAVEGAMOS
+   En la navegacion ponemos entre parentesis el nombre del "screen" al que navegamos
   */
 
   -----------------------------------------------------------------
