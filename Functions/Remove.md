@@ -17,3 +17,5 @@ Remove(
 * Escribimos una nueva función del tipo "LookUp", donde volvemos a nombrar a la tabla a la que nos dirigimos
 
 * Seguido del ID del archivo seleccionado de la galería de la app.
+
+* Importante poner la función LookUp() tanto dentro del Remove como en la propiedad "Item" del formulario.
