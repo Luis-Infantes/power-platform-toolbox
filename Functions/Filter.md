@@ -2,35 +2,37 @@
 
 ESTAS FUNCIONES LAS COLOCAMOS EN LA PROPIEDAD DE "ITEMS" DE LA GALERIA
 
-1) FILTRO DE CAMPO BUSQUEDA:
+## FUNCION DE FILTRO DE CAMPO BUSQUEDA:
 
-   Filter(
+Filter(
 
-    Requests;
-    (IsBlank(txt_Search.Text) || StartsWith(Title; txt_Search.Text)) 
+   Requests;
+   (IsBlank(txt_Search.Text) || StartsWith(Title; txt_Search.Text)) 
         
 )
 
-/*
-Request => es el nombre de la tabla de Sharepoint o Dataverse, donde se encuentran los datos.
 
-La siguiente acción es para filtrar el campo por "Title", cuando se introduce un texto en el mismo. 
-*/
+* Primero: creamos una tabla en Sharepoint o Dataverse, que en este caso tiene el nombre de Request donde se encuentran los datos.
+
+* Segundo: ponemos esta función en la propiedad de "items" de la galería para que filtre la entrada de texto mediante en este caso la columna de "Title". 
+
 
 --------------------------------------------------------
 
-2) FILTRO DE LISTA DESPLEGABLE:
+## FUNCION DE FILTRO DE LISTA DESPLEGABLE:
 
    Filter(
 
-    Requests;
+   Requests;
     (drp_Priority.Selected.Value = "Priority" || Priority.Value = drp_Priority.Selected.Value)
         && (dpr_Status.Selected.Value = "Status" || Status.Value = dpr_Status.Selected.Value)
 )
 
-/*
-Request => es el nombre de la tabla de Sharepoint o Dataverse, donde se encuentran los datos.
 
-En esta ocasión filtramos a través de dos desplegables que son, "Priority" y "Status".
-Los filtros pueden actuar en conjunto.
-*/
+* Primero: creamos una tabla en Sharepoint o Dataverse, que en este caso tiene el nombre de Request donde se encuentran los datos.
+
+* Segundo: ponemos esta función en la propiedad de "items" de la galería para que filtre a través de dos desplegables que son, "Priority" y "Status".
+
+--------------------------------------------------------
+
+
