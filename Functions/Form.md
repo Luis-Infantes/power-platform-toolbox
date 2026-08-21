@@ -2,10 +2,9 @@
 
 ESTAS FUNCIONES LAS COLOCAMOS EN LA PROPIEDAD DE "ONSELECT" DE BOTONES E ICONOS
 
-1) FUNCIONES DE CAMBIO DE ESTADO:
+## FUNCIONES DE CAMBIO DE ESTADO:
 
    
-
   NewForm(frm_Request) ;; Navigate(src_FormRequests)
 
   ViewForm(frm_Request) ;; Navigate(src_FormRequests)
@@ -14,20 +13,20 @@ ESTAS FUNCIONES LAS COLOCAMOS EN LA PROPIEDAD DE "ONSELECT" DE BOTONES E ICONOS
 
   
 
-  /*
-   Primera funciòn para poner el formulario en modo "new" y luego navegar hacia el
 
-   Segunda función para poner el formulario en modo "view" y luego navegar a el
+   * La primera función es para poner el formulario en modo "new" y luego navegar hacia el formulario.
 
-   Tercera función para poner el formulario en modo "edit"
+   * La Segunda función para poner el formulario en modo "view" y luego navegar a el formulario.
 
-   Importante definir primero el estado del formulario y luego navegar hacia el mismo
+   * La Tercera función para poner el formulario en modo "edit", que se dentro del modo "view" de dicho formulario
 
-   Se suele realizar con los modos "new" y "view", ya que el modo "edit" lo cambiamos cuando estamos en el modo "view"
+   * Es importante definir primero el estado del formulario antes de navegar hacia él.
 
-   En los tres modos ponemos entre parentesis el nombre del formulario
+   * Se suele realizar con los modos "new" y "view", ya que el modo "edit" lo cambiamos cuando estamos en el modo "view".
 
-   En la navegacion ponemos entre parentesis el nombre del "screen" al que navegamos
-  */
+   * Los tres modos ponemos entre parentesis el nombre del formulario
+
+   * En la navegacion ponemos entre parentesis el nombre del "screen" al que navegamos
+  
 
   -----------------------------------------------------------------
