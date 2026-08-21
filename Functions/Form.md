@@ -4,11 +4,15 @@ ESTAS FUNCIONES LAS COLOCAMOS EN LA PROPIEDAD DE "ONSELECT" DE BOTONES E ICONOS
 
 1) FUNCIONES DE CAMBIO DE ESTADO:
 
+   
+
   NewForm(frm_Request) ;; Navigate(src_FormRequests)
 
   ViewForm(frm_Request) ;; Navigate(src_FormRequests)
 
   EditForm(frm_Request) 
+
+  
 
   /*
   PRIMERA FUNCION PARA PONER EL FORMULARIO EN MODO "NEW" Y LUEGO NAVEGAR HACIA EL
