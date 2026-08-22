@@ -36,5 +36,17 @@ ESTAS FUNCIONES LAS COLOCAMOS EN LA PROPIEDAD DE "ONSELECT" DE BOTONES E ICONOS
 
    * Esta función se coloca en el OnSelect del botón de "Save"
 
-   * Dentro de los paréntesis colocamos el nombre del formulario 
+   * Dentro de los paréntesis colocamos el nombre del formulario
+
+  -----------------------------------------------------------------
+
+  ## FUNCION PARA RECTIFICAR EL TEXTO DE UN CAMPO DEL FORMULARIO
+
+  ```
+   Choices([@Requests].User)
+  ```
+
+* Normalmente todos los campos aparecen con sus nombres de manera correcta, pero si no es así con esta formula lo podemos corregir colocándola en "Items" del campo correspondiente
+
+* En este caso el campo del usuario nos muestra una dirección de correo junto con más símbolos y de esta forma nos muestra sólo el nombre
    
