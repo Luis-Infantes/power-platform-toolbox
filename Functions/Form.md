@@ -27,3 +27,14 @@ ESTAS FUNCIONES LAS COLOCAMOS EN LA PROPIEDAD DE "ONSELECT" DE BOTONES E ICONOS
    * Los tres modos ponemos entre parentesis el nombre del formulario
 
   -----------------------------------------------------------------
+
+  ## FUNCION PARA AÑADIR UN NUEVO REGISTRO O ACTUALIZARLO
+
+  ```
+   SubmitForm(frm_Request)
+  ```
+
+   * Esta función se coloca en el OnSelect del botón de "Save"
+
+   * Dentro de los paréntesis colocamos el nombre del formulario 
+   
