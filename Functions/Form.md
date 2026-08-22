@@ -27,6 +27,22 @@ ESTAS FUNCIONES LAS COLOCAMOS EN LA PROPIEDAD DE "ONSELECT" DE BOTONES E ICONOS
    * Los tres modos ponemos entre parentesis el nombre del formulario
 
   -----------------------------------------------------------------
+  ## FUNCION PARA DEFINIR UN ELEMENTO SELECCIONADO
+
+  ```
+  LookUp(
+    Requests;
+    ID = Gal_Requests.Selected.ID
+  )
+
+  ```
+
+   * Necesitamos añadir una función en el formulario para que a la hora de seleccionar un elemento por su ID podemos manejarlo para editarlo o eliminarlo
+
+   * Con esta función que añadimos en la propiedad de "Item" del formulario, buscamos en la tabla que en esta ocasión se llama Requests y la fila cuyo ID sea igual al ID seleccionado
+
+
+  -----------------------------------------------------------------
 
   ## FUNCION PARA AÑADIR UN NUEVO REGISTRO O ACTUALIZARLO
 
