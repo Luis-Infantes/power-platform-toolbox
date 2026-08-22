@@ -19,3 +19,18 @@ Switch(
 * Si el formulario esta en modo "Edit", pasamos el mismo formulario al modo "View"
 
 ---------------------------------------------------------------
+
+## FUNCION PARA CAMBIAR UN TEXTO EN BASE AL MODO DE ESTADO DEL FORMULARIO
+
+```
+  Switch(
+    frm_Request.Mode;
+    FormMode.New; "New Request";
+    FormMode.Edit; "Edit Request";
+    FormMode.View; "Request Details"
+)
+```
+
+* Definimos en base a que vamos a realizar las condicionales, que en este caso es al modo del formulario
+
+* Según el modo en el que se encuentre el formulario aparece un texto u otro
