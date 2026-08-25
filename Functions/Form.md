@@ -65,4 +65,21 @@ ESTAS FUNCIONES LAS COLOCAMOS EN LA PROPIEDAD DE "ONSELECT" DE BOTONES E ICONOS
 * Normalmente todos los campos aparecen con sus nombres de manera correcta, pero si no es así con esta formula lo podemos corregir colocándola en "Items" del campo correspondiente
 
 * En este caso el campo del usuario nos muestra una dirección de correo junto con más símbolos y de esta forma nos muestra sólo el nombre
+
+  -----------------------------------------------------------------
+
+  ## FUNCION ORDENAR POR ID DE MANERA ASCENDENTE
+
+  ```
+   Sort(
+    pp_Requests;
+    RequestID;
+    SortOrder.Ascending
+   )
+  
+  ```
+
+* Seleccionamos la galería y en la propiedad de "Items" añadimos esta función.
+
+* Dentro de la función de Sort, ponemos el nombre de la tabla, seguido de la columna por la cual vamos a ordenar y finalmente la manera en la cual vamos a ordenar
    
