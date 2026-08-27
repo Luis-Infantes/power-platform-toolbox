@@ -34,6 +34,37 @@
 
 4) Dentro de una función "Sort()" para tener los registros ordenador, nombramos la lista con la que trabajamos, seguido de las funciones que se encargan de funcionen los botones de filtrado.
 
+
 ## Notas:
 
 - La formula de filtrado da unos mensajes de advertencia pero funciona bien. Por ahora mantengo esta forma hasta que descubra una manera de filtrar mucho mejora para evitar este tipo de mensajes.
+
+------------------------------------------
+
+## LOS MISMOS BOTONES SE QUEDAN MARCADOS MIENTRAS SE EJECUTA EL FILTRO
+
+1) Definimos una condicional en la propiedad "Fill" de cada botón. Usando la variable en cada caso en función del estado del filtro
+
+   ```
+
+      If(
+    varStatusFilter = "All Status";
+    ColorValue("#4c97a1");
+    ColorValue("#2a4e54")
+   )
+   
+   ```
+
+   ```
+
+      If(
+    varPriorityFilter = "High";
+    ColorValue("#4c97a1");
+    ColorValue("#2a4e54")
+   )
+   
+   ```
+
+## Notas:
+
+- La condicional se ejecuta de la siguiente forma. Si la variables es igual al valor definido tendrá el primer color sino tendrá el segundo color.
