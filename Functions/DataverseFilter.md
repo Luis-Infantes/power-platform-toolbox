@@ -1,6 +1,6 @@
 # FUNCIONES PARA FILTROS
 
-## USANDO BOTONES PARA FILTRAR UNA GALERÍA
+## 1) - USANDO BOTONES PARA FILTRAR UNA GALERÍA
 
 1) En la propiedad "OnVisible" de "Screen", definimos una variable para cada caso
 
@@ -41,7 +41,7 @@
 
 ------------------------------------------
 
-## LOS BOTONES DE FILRO CAMBIAN DE COLOR MIENTRAS SE EJECUTA DICHO FILTRO
+## 2) - LOS BOTONES DE FILRO CAMBIAN DE COLOR MIENTRAS SE EJECUTA DICHO FILTRO
 
 1) Definimos una condicional en la propiedad "Fill" de cada botón. Usando la variable en cada caso en función del estado del filtro
 
