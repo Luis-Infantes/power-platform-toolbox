@@ -41,7 +41,7 @@
 
 ------------------------------------------
 
-## LOS MISMOS BOTONES SE QUEDAN MARCADOS MIENTRAS SE EJECUTA EL FILTRO
+## LOS BOTONES DE FILRO CAMBIAN DE COLOR MIENTRAS SE EJECUTA DICHO FILTRO
 
 1) Definimos una condicional en la propiedad "Fill" de cada botón. Usando la variable en cada caso en función del estado del filtro
 
