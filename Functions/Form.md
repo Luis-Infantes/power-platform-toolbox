@@ -2,7 +2,7 @@
 
 ESTAS FUNCIONES LAS COLOCAMOS EN LA PROPIEDAD DE "ONSELECT" DE BOTONES E ICONOS
 
-## FUNCIONES DE CAMBIO DE ESTADO:
+## 1) - FUNCIONES DE CAMBIO DE ESTADO:
 
    
   ```NewForm(frm_Request)```
@@ -44,7 +44,7 @@ ESTAS FUNCIONES LAS COLOCAMOS EN LA PROPIEDAD DE "ONSELECT" DE BOTONES E ICONOS
 
   -----------------------------------------------------------------
 
-  ## FUNCION PARA AÑADIR UN NUEVO REGISTRO O ACTUALIZARLO
+  ## 2) - FUNCION PARA AÑADIR UN NUEVO REGISTRO O ACTUALIZARLO
 
   ```
    SubmitForm(frm_Request)
@@ -56,7 +56,7 @@ ESTAS FUNCIONES LAS COLOCAMOS EN LA PROPIEDAD DE "ONSELECT" DE BOTONES E ICONOS
 
   -----------------------------------------------------------------
 
-  ## FUNCION PARA RECTIFICAR EL TEXTO DE UN CAMPO DEL FORMULARIO
+  ## 3) - FUNCION PARA RECTIFICAR EL TEXTO DE UN CAMPO DEL FORMULARIO
 
   ```
    Choices([@Requests].User)
@@ -68,7 +68,7 @@ ESTAS FUNCIONES LAS COLOCAMOS EN LA PROPIEDAD DE "ONSELECT" DE BOTONES E ICONOS
 
   -----------------------------------------------------------------
 
-  ## FUNCION ORDENAR POR ID DE MANERA ASCENDENTE
+  ## 4) - FUNCION ORDENAR POR ID DE MANERA ASCENDENTE
 
   ```
    Sort(
@@ -78,8 +78,25 @@ ESTAS FUNCIONES LAS COLOCAMOS EN LA PROPIEDAD DE "ONSELECT" DE BOTONES E ICONOS
    )
   
   ```
+  
 
 * Seleccionamos la galería y en la propiedad de "Items" añadimos esta función.
 
 * Dentro de la función de Sort, ponemos el nombre de la tabla, seguido de la columna por la cual vamos a ordenar y finalmente la manera en la cual vamos a ordenar
+
+  -----------------------------------------------------------------
+
+  ## 5) - FUNCION EN BASE AL NOMBRE QUE HAYAS PUESTO A LA COLUMNA
+
+  Si la comuna tiene un nombre compuesto pero junto. Tendrás que ponerla así en el campo de texto en la propiedad "Text"
+
+  ```
+     ThisItem.Employee.FullName
+  ```
+
+  Pero si el nombre de la columna esta separado, deberá de ser así
+
+  ```
+     ThisItem.Employee.'Full Name'
+  ```
    
