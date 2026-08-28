@@ -27,7 +27,8 @@ ESTAS FUNCIONES LAS COLOCAMOS EN LA PROPIEDAD DE "ONSELECT" DE BOTONES E ICONOS
    * Los tres modos ponemos entre parentesis el nombre del formulario
 
   -----------------------------------------------------------------
-  ## FUNCION PARA DEFINIR UN ELEMENTO SELECCIONADO
+  
+  ## 2) - FUNCION PARA DEFINIR UN ELEMENTO SELECCIONADO
 
   ```
   LookUp(
@@ -44,7 +45,7 @@ ESTAS FUNCIONES LAS COLOCAMOS EN LA PROPIEDAD DE "ONSELECT" DE BOTONES E ICONOS
 
   -----------------------------------------------------------------
 
-  ## 2) - FUNCION PARA AÑADIR UN NUEVO REGISTRO O ACTUALIZARLO
+  ## 3) - FUNCION PARA AÑADIR UN NUEVO REGISTRO O ACTUALIZARLO
 
   ```
    SubmitForm(frm_Request)
@@ -56,7 +57,7 @@ ESTAS FUNCIONES LAS COLOCAMOS EN LA PROPIEDAD DE "ONSELECT" DE BOTONES E ICONOS
 
   -----------------------------------------------------------------
 
-  ## 3) - FUNCION PARA RECTIFICAR EL TEXTO DE UN CAMPO DEL FORMULARIO
+  ## 4) - FUNCION PARA RECTIFICAR EL TEXTO DE UN CAMPO DEL FORMULARIO
 
   ```
    Choices([@Requests].User)
@@ -68,7 +69,7 @@ ESTAS FUNCIONES LAS COLOCAMOS EN LA PROPIEDAD DE "ONSELECT" DE BOTONES E ICONOS
 
   -----------------------------------------------------------------
 
-  ## 4) - FUNCION ORDENAR POR ID DE MANERA ASCENDENTE
+  ## 5) - FUNCION ORDENAR POR ID DE MANERA ASCENDENTE
 
   ```
    Sort(
@@ -86,7 +87,7 @@ ESTAS FUNCIONES LAS COLOCAMOS EN LA PROPIEDAD DE "ONSELECT" DE BOTONES E ICONOS
 
   -----------------------------------------------------------------
 
-  ## 5) - FUNCION EN BASE AL NOMBRE QUE HAYAS PUESTO A LA COLUMNA
+  ## 6) - FUNCION EN BASE AL NOMBRE QUE HAYAS PUESTO A LA COLUMNA
 
   Si la comuna tiene un nombre compuesto pero junto. Tendrás que ponerla así en el campo de texto en la propiedad "Text"
 
