@@ -88,7 +88,22 @@ It_IncidentsTechnicians N => 1 It_Technicians
 It_DepartamentTecnnicians 1 => N It_Technicians
 It_Technicians N => 1 It_DepartamentTecnnicians
 
-
 It_Incidents 1 => N It_IncidentHistory
 It_IncidentHistory N => 1 It_Incidents
+
+### NOTAS:
+
+1) He creados dos tablas de "Departament". Una para "Employees" y otra para "Technicians". Si la empresa tiene técnicos para arreglar las incidencias se pueden unificar las tablas en una sola, pero si los técnicos están fuera de la empresa, se podría mantener dos tablas diferentes.
+   
+2) La relación de "Employees" con "Incidents" de 1 => N. Ya que aunque puedan haber que un incidente pueda afectar a varios empleados a la vez. La solicitud se realiza una vez desde el departamento. De esta forma podemos mantener la relación de 1 => N
+
+3) Relación N <=> N entre incidentes y técnicos, ya que un técnico puede tener varias incidencias pero una incidencia puede ser atendida por varios técnicos si su nivel es bastante elevado o por otros casos
+
+4) El "IncidentHistory" lo relacionamos con la tabla de "Incidents"
+
+-----------------------------------------------------------------------------------
+
+
+
+
 
