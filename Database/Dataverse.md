@@ -100,3 +100,19 @@
 
 1) Siempre se modelan casos reales, pero si piensas que en una relación puede cambiar de 1 => N a N <=> N por una pequeña posibilidad de cambio. Es mejor mantener la relación 1 => N y resolver ese pequeño porcentaje de otra manera para tener posibilidad de resolverlo por si pasa y también evitar crear una tabla extra solo por esos casos.
 
+----
+
+## REGLA 10 - PREGUNTAR SIEMPRE EN AMBOS LADOS PARA CREAR UNA BUENA RELACION
+
+1) Por ejemplo entre la relación (1) Professors => (N) Subjects
+
+   - Un profesor puede tener varias asignaturas
+   - Una asignatura solo puede tener un profesor
+
+2) Por ejemplo entre la relación (1) Employees => (N) EmployeeProjects => (1)Projects
+
+   - Un empleado puede tener varios proyectos
+   - Un proyecto pueden trabajar varios empleados
+   - Necesitamos una tabla "EmployeeProjects" para hacer una relación intermedia de N <=> N
+
+
